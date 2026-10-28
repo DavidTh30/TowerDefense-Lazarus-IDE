@@ -1,0 +1,144 @@
+{
+  "towers": [
+    {
+      "id": "archer",
+      "name": "Archer Tower",
+      "description": "Fast arrows. Hits air and ground.",
+      "behavior": "arrow",
+      "geometry": "tower.archer",
+      "projectile": "proj.arrow",
+      "hitsAir": true,
+      "magic": false,
+      "muzzleY": 58,
+      "projectileSpeed": 620,
+      "projectileArc": 0.18,
+      "fireSound": "arrow",
+      "hitSound": "arrowHit",
+      "levels": [
+        {
+          "range": 155,
+          "damage": 7,
+          "fireInterval": 0.65,
+          "cost": 70
+        },
+        {
+          "range": 170,
+          "damage": 12,
+          "fireInterval": 0.55,
+          "cost": 80
+        },
+        {
+          "range": 190,
+          "damage": 19,
+          "fireInterval": 0.42,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "id": "mage",
+      "name": "Mage Tower",
+      "description": "Arcane bolts that ignore armor.",
+      "behavior": "bolt",
+      "geometry": "tower.mage",
+      "projectile": "proj.bolt",
+      "hitsAir": true,
+      "magic": true,
+      "muzzleY": 42,
+      "projectileSpeed": 480,
+      "projectileArc": 0,
+      "fireSound": "magic",
+      "hitSound": "magicHit",
+      "levels": [
+        {
+          "range": 140,
+          "damage": 22,
+          "fireInterval": 1.5,
+          "cost": 100
+        },
+        {
+          "range": 150,
+          "damage": 40,
+          "fireInterval": 1.4,
+          "cost": 120
+        },
+        {
+          "range": 165,
+          "damage": 70,
+          "fireInterval": 1.25,
+          "cost": 180
+        }
+      ]
+    },
+    {
+      "id": "artillery",
+      "name": "Dwarven Mortar",
+      "description": "Explosive shells. Area damage, ground only.",
+      "behavior": "bomb",
+      "geometry": "tower.artillery",
+      "projectile": "proj.bomb",
+      "hitsAir": false,
+      "magic": false,
+      "muzzleY": 48,
+      "flightTime": 1.0,
+      "projectileArc": 120,
+      "fireSound": "mortar",
+      "hitSound": "explosion",
+      "levels": [
+        {
+          "range": 165,
+          "damage": 22,
+          "fireInterval": 2.8,
+          "cost": 125,
+          "splashRadius": 55
+        },
+        {
+          "range": 175,
+          "damage": 40,
+          "fireInterval": 2.6,
+          "cost": 140,
+          "splashRadius": 62
+        },
+        {
+          "range": 190,
+          "damage": 68,
+          "fireInterval": 2.4,
+          "cost": 210,
+          "splashRadius": 72
+        }
+      ]
+    },
+    {
+      "id": "barracks",
+      "name": "Barracks",
+      "description": "Soldiers that block and fight enemies.",
+      "behavior": "barracks",
+      "geometry": "tower.barracks",
+      "soldiers": 3,
+      "hitsAir": false,
+      "levels": [
+        {
+          "range": 150,
+          "damage": 4,
+          "fireInterval": 1.0,
+          "cost": 70,
+          "soldierHp": 60
+        },
+        {
+          "range": 160,
+          "damage": 7,
+          "fireInterval": 1.0,
+          "cost": 90,
+          "soldierHp": 100
+        },
+        {
+          "range": 170,
+          "damage": 12,
+          "fireInterval": 0.9,
+          "cost": 150,
+          "soldierHp": 160
+        }
+      ]
+    }
+  ]
+}

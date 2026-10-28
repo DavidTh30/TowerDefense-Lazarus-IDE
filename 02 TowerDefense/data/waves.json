@@ -1,0 +1,694 @@
+{
+  "waves": [
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 5,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 6,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 4,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 7,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 5,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 5,
+          "path": 1,
+          "start": 7,
+          "interval": 0.7
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 8,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 6,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 6,
+          "path": 0,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 2,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 9,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 7,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 7,
+          "path": 1,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 2,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "bat",
+          "count": 3,
+          "path": 0,
+          "start": 12,
+          "interval": 1.0
+        },
+        {
+          "enemy": "brute",
+          "count": 1,
+          "path": 0,
+          "start": 16,
+          "interval": 7
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 10,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 8,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 8,
+          "path": 0,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 3,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "bat",
+          "count": 4,
+          "path": 1,
+          "start": 12,
+          "interval": 1.0
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 11,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 9,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 9,
+          "path": 1,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 3,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "shield",
+          "count": 1,
+          "path": 1,
+          "start": 13,
+          "interval": 2.4
+        },
+        {
+          "enemy": "bat",
+          "count": 5,
+          "path": 0,
+          "start": 12,
+          "interval": 1.0
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 12,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 10,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 10,
+          "path": 0,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 4,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "shield",
+          "count": 2,
+          "path": 1,
+          "start": 13,
+          "interval": 2.4
+        },
+        {
+          "enemy": "bat",
+          "count": 6,
+          "path": 1,
+          "start": 12,
+          "interval": 1.0
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 13,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 11,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 11,
+          "path": 1,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 4,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "shield",
+          "count": 2,
+          "path": 1,
+          "start": 13,
+          "interval": 2.4
+        },
+        {
+          "enemy": "bat",
+          "count": 7,
+          "path": 0,
+          "start": 12,
+          "interval": 1.0
+        },
+        {
+          "enemy": "runner",
+          "count": 9,
+          "path": 0,
+          "start": 18,
+          "interval": 0.5
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 14,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 12,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 12,
+          "path": 0,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 5,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "shield",
+          "count": 3,
+          "path": 1,
+          "start": 13,
+          "interval": 2.4
+        },
+        {
+          "enemy": "bat",
+          "count": 8,
+          "path": 1,
+          "start": 12,
+          "interval": 1.0
+        },
+        {
+          "enemy": "runner",
+          "count": 10,
+          "path": 0,
+          "start": 18,
+          "interval": 0.5
+        },
+        {
+          "enemy": "brute",
+          "count": 1,
+          "path": 0,
+          "start": 16,
+          "interval": 7
+        },
+        {
+          "enemy": "brute",
+          "count": 1,
+          "path": 1,
+          "start": 20,
+          "interval": 7
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 15,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 13,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 13,
+          "path": 1,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 5,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "shield",
+          "count": 3,
+          "path": 1,
+          "start": 13,
+          "interval": 2.4
+        },
+        {
+          "enemy": "bat",
+          "count": 9,
+          "path": 0,
+          "start": 12,
+          "interval": 1.0
+        },
+        {
+          "enemy": "runner",
+          "count": 11,
+          "path": 0,
+          "start": 18,
+          "interval": 0.5
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 16,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 14,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 14,
+          "path": 0,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 6,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "shield",
+          "count": 4,
+          "path": 1,
+          "start": 13,
+          "interval": 2.4
+        },
+        {
+          "enemy": "bat",
+          "count": 10,
+          "path": 1,
+          "start": 12,
+          "interval": 1.0
+        },
+        {
+          "enemy": "runner",
+          "count": 12,
+          "path": 0,
+          "start": 18,
+          "interval": 0.5
+        },
+        {
+          "enemy": "brute",
+          "count": 1,
+          "path": 0,
+          "start": 24,
+          "interval": 1
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 17,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 15,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 15,
+          "path": 1,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 6,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "shield",
+          "count": 4,
+          "path": 1,
+          "start": 13,
+          "interval": 2.4
+        },
+        {
+          "enemy": "bat",
+          "count": 11,
+          "path": 0,
+          "start": 12,
+          "interval": 1.0
+        },
+        {
+          "enemy": "runner",
+          "count": 13,
+          "path": 0,
+          "start": 18,
+          "interval": 0.5
+        },
+        {
+          "enemy": "brute",
+          "count": 1,
+          "path": 1,
+          "start": 24,
+          "interval": 1
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 18,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 16,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 16,
+          "path": 0,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 7,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "shield",
+          "count": 5,
+          "path": 1,
+          "start": 13,
+          "interval": 2.4
+        },
+        {
+          "enemy": "bat",
+          "count": 12,
+          "path": 1,
+          "start": 12,
+          "interval": 1.0
+        },
+        {
+          "enemy": "runner",
+          "count": 14,
+          "path": 0,
+          "start": 18,
+          "interval": 0.5
+        },
+        {
+          "enemy": "brute",
+          "count": 1,
+          "path": 0,
+          "start": 24,
+          "interval": 1
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "enemy": "raider",
+          "count": 19,
+          "path": 0,
+          "start": 0,
+          "interval": 1.3
+        },
+        {
+          "enemy": "raider",
+          "count": 17,
+          "path": 1,
+          "start": 2.5,
+          "interval": 1.4
+        },
+        {
+          "enemy": "runner",
+          "count": 17,
+          "path": 1,
+          "start": 7,
+          "interval": 0.7
+        },
+        {
+          "enemy": "shield",
+          "count": 7,
+          "path": 0,
+          "start": 10,
+          "interval": 2.2
+        },
+        {
+          "enemy": "shield",
+          "count": 5,
+          "path": 1,
+          "start": 13,
+          "interval": 2.4
+        },
+        {
+          "enemy": "bat",
+          "count": 13,
+          "path": 0,
+          "start": 12,
+          "interval": 1.0
+        },
+        {
+          "enemy": "runner",
+          "count": 15,
+          "path": 0,
+          "start": 18,
+          "interval": 0.5
+        },
+        {
+          "enemy": "brute",
+          "count": 2,
+          "path": 0,
+          "start": 16,
+          "interval": 7
+        },
+        {
+          "enemy": "brute",
+          "count": 2,
+          "path": 1,
+          "start": 20,
+          "interval": 7
+        },
+        {
+          "enemy": "brute",
+          "count": 1,
+          "path": 1,
+          "start": 24,
+          "interval": 1
+        }
+      ]
+    }
+  ]
+}

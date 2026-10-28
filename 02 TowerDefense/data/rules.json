@@ -1,0 +1,50 @@
+{
+  "rules": {
+    "startGold": 260,
+    "startLives": 20,
+    "waveGap": 22,
+    "earlyBonusPerSecond": 1.5,
+    "earlyCallCooldownCut": 0.3,
+    "enemyHpGrowthPerWave": 0.12,
+    "enemyHpGrowthQuadratic": 0.006,
+    "enemyDamageGrowthPerWave": 0.05,
+    "sellRefundRatio": 0.6
+  },
+  "abilities": {
+    "rainOfFire": {
+      "name": "Rain of Fire",
+      "description": "Meteors strike an area. Hits air and ground.",
+      "geometry": "proj.meteor",
+      "cooldown": 45,
+      "meteors": 6,
+      "damage": 40,
+      "damagePerWave": 6,
+      "splashRadius": 52,
+      "spreadX": 55,
+      "spreadY": 35,
+      "delayBetween": 0.16,
+      "fallTime": 0.65
+    },
+    "reinforcements": {
+      "name": "Reinforcements",
+      "description": "Call militia to block the road.",
+      "geometry": "unit.militia",
+      "cooldown": 18,
+      "count": 2,
+      "hp": 70,
+      "hpPerWave": 6,
+      "damage": 6,
+      "damagePerWave": 0.5,
+      "lifetime": 25
+    }
+  },
+  "soldier": {
+    "geometry": "unit.knight",
+    "walkSpeed": 85,
+    "engageRange": 75,
+    "leashRange": 120,
+    "respawnTime": 10,
+    "attackInterval": 0.9,
+    "idleRegenPerSecond": 0.06
+  }
+}

@@ -1,0 +1,183 @@
+{"sounds": [
+  {"name": "arrow", "peak": 0.45, "minGap": 0.07, "length": 0.22, "notes": "bow twang + whoosh",
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.22, "wave": "triangle", "f0": 180, "f1": 120, "attack": 0.002, "decay": 0.05, "gain": 1},
+     {"type": "noise", "at": 0.01, "dur": 0.22, "f0": 2500, "f1": 900, "attack": 0.01, "decay": 0.06, "gain": 0.9},
+     {"type": "tone", "at": 0, "dur": 0.1, "wave": "sine", "f0": 900, "f1": 400, "attack": 0.001, "decay": 0.015, "gain": 0.4}
+   ]},
+  {"name": "arrowHit", "peak": 0.35, "minGap": 0.06,
+   "layers": [
+     {"type": "noise", "at": 0, "dur": 0.12, "f0": 1800, "f1": 300, "attack": 0.001, "decay": 0.025, "gain": 1},
+     {"type": "tone", "at": 0, "dur": 0.12, "wave": "sine", "f0": 220, "f1": 90, "attack": 0.001, "decay": 0.03, "gain": 0.8}
+   ]},
+  {"name": "magic", "peak": 0.38, "minGap": 0.1,
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.45, "wave": "sine", "f0": 500, "f1": 1500, "attack": 0.02, "decay": 0.15, "vibrato": 0.04, "gain": 1},
+     {"type": "tone", "at": 0, "dur": 0.45, "wave": "triangle", "f0": 750, "f1": 2250, "attack": 0.02, "decay": 0.12, "vibrato": 0.05, "gain": 0.5},
+     {"type": "noise", "at": 0, "dur": 0.45, "f0": 6000, "f1": 3000, "attack": 0.05, "decay": 0.1, "gain": 0.25}
+   ]},
+  {"name": "magicHit", "peak": 0.3, "minGap": 0.08,
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.35, "wave": "sine", "f0": 1800, "f1": 900, "attack": 0.002, "decay": 0.08, "gain": 1},
+     {"type": "tone", "at": 0, "dur": 0.35, "wave": "sine", "f0": 2700, "f1": 1300, "attack": 0.002, "decay": 0.06, "gain": 0.6},
+     {"type": "noise", "at": 0, "dur": 0.2, "f0": 5000, "f1": 2000, "attack": 0.001, "decay": 0.04, "gain": 0.4}
+   ]},
+  {"name": "mortar", "peak": 0.6, "minGap": 0.1,
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.5, "wave": "sine", "f0": 110, "f1": 45, "attack": 0.002, "decay": 0.12, "gain": 1},
+     {"type": "noise", "at": 0, "dur": 0.5, "f0": 1200, "f1": 150, "attack": 0.002, "decay": 0.1, "gain": 0.9}
+   ]},
+  {"name": "explosion", "peak": 0.8, "minGap": 0.08,
+   "layers": [
+     {"type": "noise", "at": 0, "dur": 1.3, "f0": 4000, "f1": 120, "attack": 0.003, "decay": 0.32, "gain": 1},
+     {"type": "tone", "at": 0, "dur": 1.3, "wave": "sine", "f0": 70, "f1": 30, "attack": 0.005, "decay": 0.35, "gain": 1.2},
+     {"type": "noise", "at": 0, "dur": 0.08, "f0": 8000, "f1": 3000, "attack": 0.001, "decay": 0.015, "gain": 0.8}
+   ]},
+  {"name": "meteorCast", "peak": 0.5, "minGap": 0.03,
+   "layers": [
+     {"type": "noise", "at": 0, "dur": 1.0, "f0": 300, "f1": 3000, "attack": 0.4, "decay": 0.4, "gain": 1},
+     {"type": "tone", "at": 0, "dur": 1.0, "wave": "saw", "f0": 80, "f1": 160, "attack": 0.3, "decay": 0.4, "gain": 0.6, "lowpass": 600}
+   ]},
+  {"name": "meteorFall", "peak": 0.3, "minGap": 0.12,
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.65, "wave": "sine", "f0": 1600, "f1": 500, "attack": 0.05, "decay": 0.5, "gain": 1},
+     {"type": "noise", "at": 0, "dur": 0.65, "f0": 1500, "f1": 4000, "attack": 0.2, "decay": 0.4, "gain": 0.6}
+   ]},
+  {"name": "horn", "peak": 0.55, "minGap": 0.03, "length": 2.4, "lowpass": [1400, 2200], "notes": "wave start war horn",
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.9, "wave": "saw", "f0": 98, "f1": 104, "attack": 0.12, "decay": 2.0, "vibrato": 0.008, "gain": 1, "fadeOut": 0.15},
+     {"type": "tone", "at": 0, "dur": 0.9, "wave": "saw", "f0": 196, "f1": 208, "attack": 0.12, "decay": 2.0, "vibrato": 0.008, "gain": 0.35, "fadeOut": 0.15},
+     {"type": "tone", "at": 0.85, "dur": 1.4, "wave": "saw", "f0": 131, "f1": 138, "attack": 0.1, "decay": 3.0, "vibrato": 0.01, "gain": 1, "fadeOut": 0.4},
+     {"type": "tone", "at": 0.85, "dur": 1.4, "wave": "saw", "f0": 262, "f1": 276, "attack": 0.1, "decay": 3.0, "vibrato": 0.01, "gain": 0.35, "fadeOut": 0.4}
+   ]},
+  {"name": "rallyHorn", "peak": 0.4, "minGap": 0.03, "lowpass": [1500],
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.6, "wave": "saw", "f0": 147, "f1": 156, "attack": 0.06, "decay": 1.0, "vibrato": 0.01, "gain": 1, "fadeOut": 0.15},
+     {"type": "tone", "at": 0, "dur": 0.6, "wave": "saw", "f0": 294, "f1": 312, "attack": 0.06, "decay": 1.0, "vibrato": 0.01, "gain": 0.3, "fadeOut": 0.15}
+   ]},
+  {"name": "sword1", "peak": 0.32, "minGap": 0.05,
+   "layers": [
+     {"type": "metal", "at": 0, "dur": 0.4, "f0": 1900, "decay": 0.09, "gain": 1},
+     {"type": "noise", "at": 0, "dur": 0.04, "f0": 9000, "f1": 4000, "attack": 0.0005, "decay": 0.008, "gain": 2.0}
+   ]},
+  {"name": "sword2", "peak": 0.32, "minGap": 0.05,
+   "layers": [
+     {"type": "metal", "at": 0, "dur": 0.4, "f0": 2320, "decay": 0.09, "gain": 1},
+     {"type": "noise", "at": 0, "dur": 0.04, "f0": 9000, "f1": 4000, "attack": 0.0005, "decay": 0.008, "gain": 2.0}
+   ]},
+  {"name": "sword3", "peak": 0.32, "minGap": 0.05,
+   "layers": [
+     {"type": "metal", "at": 0, "dur": 0.4, "f0": 2740, "decay": 0.09, "gain": 1},
+     {"type": "noise", "at": 0, "dur": 0.04, "f0": 9000, "f1": 4000, "attack": 0.0005, "decay": 0.008, "gain": 2.0}
+   ]},
+  {"name": "soldierDie", "peak": 0.45, "minGap": 0.03, "length": 0.4,
+   "layers": [
+     {"type": "grunt", "at": 0, "dur": 0.4, "f0": 170, "f1": 85, "bright": 900, "gain": 1},
+     {"type": "metal", "at": 0.12, "dur": 0.3, "f0": 1300, "decay": 0.05, "gain": 0.25}
+   ]},
+  {"name": "soldierSpawn", "peak": 0.3, "minGap": 0.03,
+   "layers": [
+     {"type": "metal", "at": 0, "dur": 0.25, "f0": 2600, "decay": 0.04, "gain": 1},
+     {"type": "grunt", "at": 0.03, "dur": 0.15, "f0": 220, "f1": 260, "bright": 1200, "gain": 1.2}
+   ]},
+  {"name": "dieRaider", "peak": 0.45, "minGap": 0.08,
+   "layers": [
+     {"type": "grunt", "at": 0, "dur": 0.45, "f0": 150, "f1": 70, "bright": 800, "gain": 1}
+   ]},
+  {"name": "dieGoblin", "peak": 0.4, "minGap": 0.08,
+   "layers": [
+     {"type": "grunt", "at": 0, "dur": 0.3, "f0": 420, "f1": 220, "bright": 2200, "gain": 1}
+   ]},
+  {"name": "dieBat", "peak": 0.25, "minGap": 0.08, "length": 0.25, "lowpass": [5000],
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.25, "wave": "square", "f0": 3200, "f1": 1800, "attack": 0.003, "decay": 0.06, "gain": 1},
+     {"type": "tone", "at": 0.04, "dur": 0.25, "wave": "sine", "f0": 4100, "f1": 2500, "attack": 0.003, "decay": 0.05, "gain": 0.7}
+   ]},
+  {"name": "dieBrute", "peak": 0.7, "minGap": 0.03, "length": 1.1,
+   "layers": [
+     {"type": "grunt", "at": 0, "dur": 1.1, "f0": 95, "f1": 40, "bright": 500, "gain": 1},
+     {"type": "tone", "at": 0.6, "dur": 0.6, "wave": "sine", "f0": 60, "f1": 30, "attack": 0.002, "decay": 0.15, "gain": 1},
+     {"type": "noise", "at": 0.6, "dur": 0.6, "f0": 600, "f1": 100, "attack": 0.002, "decay": 0.12, "gain": 0.6}
+   ]},
+  {"name": "enemyHit", "peak": 0.35, "minGap": 0.08,
+   "layers": [
+     {"type": "noise", "at": 0, "dur": 0.15, "f0": 1200, "f1": 200, "attack": 0.001, "decay": 0.03, "gain": 1},
+     {"type": "tone", "at": 0, "dur": 0.15, "wave": "sine", "f0": 160, "f1": 70, "attack": 0.001, "decay": 0.04, "gain": 1}
+   ]},
+  {"name": "build", "peak": 0.5, "minGap": 0.03, "length": 0.75, "notes": "three hammer knocks",
+   "layers": [
+     {"type": "noise", "at": 0.0, "dur": 0.12, "f0": 2500, "f1": 400, "attack": 0.001, "decay": 0.02, "gain": 1},
+     {"type": "tone", "at": 0.0, "dur": 0.12, "wave": "sine", "f0": 420, "f1": 300, "attack": 0.001, "decay": 0.03, "gain": 1},
+     {"type": "noise", "at": 0.18, "dur": 0.12, "f0": 2500, "f1": 400, "attack": 0.001, "decay": 0.02, "gain": 1},
+     {"type": "tone", "at": 0.18, "dur": 0.12, "wave": "sine", "f0": 390, "f1": 300, "attack": 0.001, "decay": 0.03, "gain": 1},
+     {"type": "noise", "at": 0.36, "dur": 0.12, "f0": 2500, "f1": 400, "attack": 0.001, "decay": 0.02, "gain": 1},
+     {"type": "tone", "at": 0.36, "dur": 0.12, "wave": "sine", "f0": 360, "f1": 300, "attack": 0.001, "decay": 0.03, "gain": 1}
+   ]},
+  {"name": "upgrade", "peak": 0.38, "minGap": 0.03, "length": 0.8,
+   "layers": [
+     {"type": "tone", "at": 0.0, "dur": 0.3, "wave": "triangle", "f0": 523.0, "f1": 523.0, "attack": 0.005, "decay": 0.1, "gain": 1},
+     {"type": "tone", "at": 0.08, "dur": 0.3, "wave": "triangle", "f0": 658.94, "f1": 658.94, "attack": 0.005, "decay": 0.1, "gain": 1},
+     {"type": "tone", "at": 0.16, "dur": 0.3, "wave": "triangle", "f0": 830.21, "f1": 830.21, "attack": 0.005, "decay": 0.1, "gain": 1},
+     {"type": "tone", "at": 0.24, "dur": 0.3, "wave": "triangle", "f0": 987.29, "f1": 987.29, "attack": 0.005, "decay": 0.1, "gain": 1}
+   ]},
+  {"name": "sell", "peak": 0.3, "minGap": 0.03, "length": 0.6,
+   "layers": [
+     {"type": "metal", "at": 0.0, "dur": 0.25, "f0": 3000, "decay": 0.04, "gain": 1.0},
+     {"type": "metal", "at": 0.07, "dur": 0.25, "f0": 3270, "decay": 0.04, "gain": 0.88},
+     {"type": "metal", "at": 0.14, "dur": 0.25, "f0": 3540, "decay": 0.04, "gain": 0.76},
+     {"type": "metal", "at": 0.21000000000000002, "dur": 0.25, "f0": 3810, "decay": 0.04, "gain": 0.64},
+     {"type": "metal", "at": 0.28, "dur": 0.25, "f0": 4080, "decay": 0.04, "gain": 0.52}
+   ]},
+  {"name": "coin", "peak": 0.15, "minGap": 0.06, "length": 0.15,
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.15, "wave": "sine", "f0": 2093, "f1": 2093, "attack": 0.001, "decay": 0.035, "gain": 1},
+     {"type": "tone", "at": 0.04, "dur": 0.15, "wave": "sine", "f0": 3136, "f1": 3136, "attack": 0.001, "decay": 0.03, "gain": 0.8}
+   ]},
+  {"name": "leak", "peak": 0.55, "minGap": 0.03, "lowpass": [1200],
+   "layers": [
+     {"type": "metal", "at": 0, "dur": 1.0, "f0": 140, "decay": 0.35, "gain": 1},
+     {"type": "tone", "at": 0, "dur": 1.0, "wave": "sine", "f0": 70, "f1": 65, "attack": 0.005, "decay": 0.4, "gain": 0.8}
+   ]},
+  {"name": "click", "peak": 0.2, "minGap": 0.03,
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.05, "wave": "sine", "f0": 1200, "f1": 800, "attack": 0.001, "decay": 0.01, "gain": 1}
+   ]},
+  {"name": "victory", "peak": 0.45, "minGap": 0.03, "length": 2.0, "lowpass": [2500],
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.25, "wave": "saw", "f0": 392, "f1": 392, "attack": 0.01, "decay": 0.2, "gain": 1},
+     {"type": "tone", "at": 0.18, "dur": 0.25, "wave": "saw", "f0": 523, "f1": 523, "attack": 0.01, "decay": 0.2, "gain": 1},
+     {"type": "tone", "at": 0.36, "dur": 0.25, "wave": "saw", "f0": 659, "f1": 659, "attack": 0.01, "decay": 0.2, "gain": 1},
+     {"type": "tone", "at": 0.54, "dur": 1.2, "wave": "saw", "f0": 784, "f1": 784, "attack": 0.01, "decay": 0.6, "vibrato": 0.006, "gain": 1}
+   ]},
+  {"name": "defeat", "peak": 0.5, "minGap": 0.03,
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 2.0, "wave": "saw", "f0": 147, "f1": 98, "attack": 0.1, "decay": 1.0, "vibrato": 0.01, "gain": 1, "lowpass": 900, "fadeOut": 0.5},
+     {"type": "metal", "at": 0, "dur": 1.5, "f0": 110, "decay": 0.5, "gain": 0.5}
+   ]},
+  {"name": "heroSlam", "peak": 0.85, "minGap": 0.03,
+   "layers": [
+     {"type": "tone", "at": 0, "dur": 0.9, "wave": "sine", "f0": 60, "f1": 28, "attack": 0.003, "decay": 0.25, "gain": 1},
+     {"type": "noise", "at": 0, "dur": 0.9, "f0": 900, "f1": 70, "attack": 0.002, "decay": 0.22, "gain": 1.1},
+     {"type": "noise", "at": 0.01, "dur": 0.12, "f0": 5000, "f1": 1500, "attack": 0.001, "decay": 0.02, "gain": 0.7}
+   ]},
+  {"name": "hammerThrow", "peak": 0.4, "minGap": 0.03, "length": 0.45,
+   "layers": [
+     {"type": "noise", "at": 0, "dur": 0.22, "f0": 700, "f1": 2600, "attack": 0.05, "decay": 0.12, "gain": 1},
+     {"type": "noise", "at": 0.18, "dur": 0.22, "f0": 2600, "f1": 700, "attack": 0.01, "decay": 0.08, "gain": 1},
+     {"type": "metal", "at": 0, "dur": 0.2, "f0": 2200, "decay": 0.04, "gain": 0.3}
+   ]},
+  {"name": "heroLevel", "peak": 0.45, "minGap": 0.03, "length": 1.3,
+   "layers": [
+     {"type": "tone", "at": 0.0, "dur": 0.6, "wave": "triangle", "f0": 392.0, "f1": 392.0, "attack": 0.005, "decay": 0.25, "gain": 1},
+     {"type": "tone", "at": 0.09, "dur": 0.6, "wave": "triangle", "f0": 493.89, "f1": 493.89, "attack": 0.005, "decay": 0.25, "gain": 1},
+     {"type": "tone", "at": 0.18, "dur": 0.6, "wave": "triangle", "f0": 659.26, "f1": 659.26, "attack": 0.005, "decay": 0.25, "gain": 1},
+     {"type": "tone", "at": 0.27, "dur": 0.6, "wave": "triangle", "f0": 784.0, "f1": 784.0, "attack": 0.005, "decay": 0.25, "gain": 1},
+     {"type": "tone", "at": 0.36, "dur": 0.6, "wave": "triangle", "f0": 987.78, "f1": 987.78, "attack": 0.005, "decay": 0.25, "gain": 1},
+     {"type": "noise", "at": 0.3, "dur": 1.0, "f0": 9000, "f1": 5000, "attack": 0.2, "decay": 0.3, "gain": 0.15}
+   ]},
+  {"name": "heroDie", "peak": 0.6, "minGap": 0.03,
+   "layers": [
+     {"type": "grunt", "at": 0, "dur": 0.9, "f0": 120, "f1": 45, "bright": 700, "gain": 1},
+     {"type": "metal", "at": 0.35, "dur": 0.5, "f0": 900, "decay": 0.08, "gain": 0.4}
+   ]}
+]}

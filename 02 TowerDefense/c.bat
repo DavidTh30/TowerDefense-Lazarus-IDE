@@ -1,0 +1,1 @@
+towerdefense.exe --dumpsfx C:\some\folder

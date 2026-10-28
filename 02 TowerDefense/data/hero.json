@@ -1,0 +1,71 @@
+{
+  "enabled": true,
+  "name": "Thane Brokkr",
+  "description": "Dwarf champion. Click him (or press H), then click where he should go.",
+  "geometry": "unit.hero",
+  "speed": 75,
+  "engageRange": 80,
+  "respawnTime": 16,
+  "regenPerSecond": 0.04,
+  "xpPerGold": 3,
+  "levels": [
+    {
+      "hp": 320,
+      "damage": 14,
+      "attackInterval": 1.0,
+      "armor": 0.2,
+      "xp": 0
+    },
+    {
+      "hp": 380,
+      "damage": 18,
+      "attackInterval": 0.95,
+      "armor": 0.25,
+      "xp": 250
+    },
+    {
+      "hp": 450,
+      "damage": 23,
+      "attackInterval": 0.9,
+      "armor": 0.3,
+      "xp": 700
+    },
+    {
+      "hp": 530,
+      "damage": 29,
+      "attackInterval": 0.85,
+      "armor": 0.35,
+      "xp": 1400
+    },
+    {
+      "hp": 620,
+      "damage": 36,
+      "attackInterval": 0.8,
+      "armor": 0.4,
+      "xp": 2400
+    }
+  ],
+  "abilities": {
+    "slam": {
+      "name": "Thunder Slam",
+      "description": "Smashes the ground: damages and stuns nearby ground enemies.",
+      "cooldown": 14,
+      "radius": 85,
+      "damage": 50,
+      "damagePerLevel": 25,
+      "stun": 1.5,
+      "sound": "heroSlam"
+    },
+    "hammer": {
+      "name": "Hammer Throw",
+      "description": "Hurls his hammer at the toughest enemy in range (air too).",
+      "cooldown": 10,
+      "range": 260,
+      "damage": 110,
+      "damagePerLevel": 45,
+      "splash": 35,
+      "geometry": "proj.hammer",
+      "sound": "hammerThrow"
+    }
+  }
+}
